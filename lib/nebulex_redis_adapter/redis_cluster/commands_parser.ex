@@ -117,6 +117,7 @@ defmodule NebulexRedisAdapter.RedisCluster.CommandParser do
     "SCARD" => %{},
     "LPUSHX" => %{},
     "SSCAN" => %{},
+    "GETDEL" => %{},
   }
   @commands_spec
   |> Enum.concat(
